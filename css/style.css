@@ -12,3 +12,9 @@ h1{
     font-family: 'Fredoka One', cursive;
     padding-bottom: 10px;
 }
+
+.row{
+    text-align-last: center;
+    font-size: x-large;
+    padding-bottom: 40px;
+}
