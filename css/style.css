@@ -26,10 +26,11 @@ main{
     padding-right: 200px;
 }
 
-.container::after{
+.container{
     content: "";
     clear: both;
     display: table;
+    background-color: red;
     margin-left: auto;
     margin-right: auto;
 }
