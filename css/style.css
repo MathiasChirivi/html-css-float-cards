@@ -27,13 +27,16 @@ main{
 }
 
 .container{
-    content: "";
-    clear: both;
-    display: table;
     background-color: red;
     margin-left: auto;
     margin-right: auto;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .box{
     background-color: black;
